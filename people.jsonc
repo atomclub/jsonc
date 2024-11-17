@@ -1,0 +1,83 @@
+{
+    "card": [
+        {   
+            // type             NFC卡类型
+            // release_date     社卡发行日期
+            // is_vac           是否已软封
+            // is_valid         是否有效
+            // is_debug         是否为调试状态
+            "type" :            "IC-CUID",    
+            "release_date" :    "2024-11-17T00:00:00+08:00",
+            "is_vac" :          false,
+            "is_valid" :        true,
+            "is_debug" :        false,
+        }
+    ],
+
+    "people": [
+        { 
+            // name             姓名
+            // nickname         昵称
+            // role             身份
+            // class_of         第几级，指入学年。如2023级为ClassOf2023        
+            // srid             学籍号(School Roll ID)
+            // club             社团归属情况
+            // job              任职
+            // is_onion         是否为洋葱会成员
+            // onion_job        在洋葱会任职情况
+            // skill            掌握的技能
+            // description      个人简介
+            // github           GitHub id (注意是id，不是profile地址)
+            // bili             BiliBili 个人主页地址
+            // tel              电话，为整型数字，不要用字符串
+            // email            电子邮箱地址
+            // banner           个人主页头图的URL
+            "name" :            "Hoshiru",
+            "nickname" :        "Xing Su",
+            "role" :            "etc",
+            "class_of" :        2023,  
+            "srid" :            230100,
+            "club" :            [1],
+            "is_onion" :        false,
+            "onion_job" :       null,
+            "job" :             "mascot",
+            "skill":            "Vue",
+            "description":      "hello",
+            "github":           "atomclub",
+            "bili":             null,
+            "tel" :             12345678900,
+            "email" :           null, 
+            "banner" :          null
+        }
+    ],
+
+    "clubs" : [
+        {"name" : "无社团",         "found_year":0, "id":-1},       //无社团
+        //以下为2024年以前成立的老社团
+        {"name" : "书画社",         "found_year":2023, "id":2},    //书画社        (2024)
+        {"name" : "海韵文学社",     "found_year":2022, "id":3},    //海韵文学社    (2022)
+        {"name" : "心乐社",         "found_year":2023, "id":4},    //心乐社        (2023)
+        {"name" : "绘影社",         "found_year":2023, "id":5},    //绘影社        (2023)
+        {"name" : "英语角",         "found_year":2023, "id":15},
+        {"name" : "足球社",         "found_year":2023, "id":9},    //足球社        (2024)
+        {"name" : "话剧社",         "found_year":2023, "id":22},
+        //以下为2024年新成立的社团
+        {"name" : "原子信息社",     "found_year":2024, "id":1},    //原子信息社    (2024)
+        {"name" : "白影乒社",       "found_year":2024, "id":6},    //白影乒社      (2024)
+        {"name" : "君弈社",         "found_year":2024, "id":7},    //君弈社        (2024)
+        {"name" : "雅思数论",       "found_year":2024, "id":8},    //雅思数论      (2024)
+        {"name" : "舞蹈社",         "found_year":2024, "id":10},   //舞蹈社        (2024)
+        {"name" : "圆理辩论社",     "found_year":2024, "id":11},   //圆理社        (2024)
+        {"name" : "平原社",         "found_year":2024, "id":12},   //平原社        (2024)
+        {"name" : "模联",           "found_year":2024, "id":13},
+        {"name" : "格物自然研究社", "found_year":2024, "id":14},
+        {"name" : "古今社",         "found_year":2024, "id":16},
+        {"name" : "菁英篮球社",     "found_year":2024, "id":17},
+        {"name" : "心尘微语",       "found_year":2024, "id":18},
+        {"name" : "谜拓社",         "found_year":2024, "id":19},
+        {"name" : "校园广播站",     "found_year":2024, "id":20},
+        {"name" : "颂暖社",         "found_year":2024, "id":21},
+        {"name" : "风语社",         "found_year":2024, "id":23},
+        {"name" : "奕羽羽毛球社",   "found_year":2024, "id":24},
+    ]
+}
